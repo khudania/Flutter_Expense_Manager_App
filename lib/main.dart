@@ -20,6 +20,8 @@ class MyHomePage extends StatelessWidget {
         title: Text('Expense Manager'),
       ),
       body: Column(
+        mainAxisAlignment: MainAxisAlignment.spaceAround,
+        crossAxisAlignment: CrossAxisAlignment.stretch,
         children: <Widget>[
           Container(
             width: double.infinity,
@@ -30,6 +32,7 @@ class MyHomePage extends StatelessWidget {
             ),
           ),
           Card(
+            color: Colors.red,
             child: Text('List Of TXN'),
           ),
         ],
